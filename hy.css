@@ -1,0 +1,128 @@
+#bv{
+	margin-top: 6%;
+}
+
+#new{
+	display: flex;
+	padding: 25px;
+	margin-left: 23%;
+	margin-top: -12cm;
+}
+#new a{
+	color: white;
+	text-decoration: none;
+	transition: .3s;
+}
+#new button{
+	background-color: black;
+	width: 1.5cm;
+	border-radius: 20px;
+}
+.a{
+	background-color: white;
+}
+.b{
+	background-color: white;
+	margin-left: 40px;
+}
+.c{
+	background-color: white;
+	margin-left: 40px;
+}
+#new img{
+	width: 5cm;
+	height: 3cm;
+}
+#new2{
+	margin-top: -9cm;
+	display: flex;
+	margin-left: 23%;
+	padding: 25px;
+}
+#new2 a{
+	color: white;
+	text-decoration: none;
+	transition: .3s;
+}
+#new2 button{
+	background-color: black;
+	width: 1.5cm;
+	border-radius: 20px;
+}
+.d{
+	background-color: white;
+}
+.e{
+	background-color: white;
+	margin-left: 40px;
+}
+.f{
+	background-color: white;
+	margin-left: 40px;
+}
+#new2 img{
+	width: 5cm;
+	height: 3cm;
+}
+#new3{
+	margin-top: 3cm;
+	display: flex;
+	padding: 25px;
+	margin-left: 23%;
+}
+#new3 a{
+	color: white;
+	text-decoration: none;
+	transition: .3s;
+}
+#new3 button{
+	background-color: black;
+	width: 1.5cm;
+	border-radius: 20px;
+}
+.g{
+	background-color: white;
+}
+.h{
+	margin-left: 40px;
+	background-color: white;
+}
+.i{
+	margin-left: 40px;
+	background-color: white;
+}
+#new3 img{
+	width: 5cm;
+	height: 3cm;
+}
+#new4{
+	margin-top: -1cm;
+	display: flex;
+	padding: 25px;
+	margin-left: 23%;
+}
+#new4 a{
+	color: white;
+	text-decoration: none;
+	transition: .3s;
+}
+#new4 button{
+	background-color: black;
+	width: 1.5cm;
+	border-radius: 20px;
+}
+.j{
+	background-color: white;
+}
+.k{
+	margin-left: 40px;
+	background-color: white;
+}
+.l{
+	margin-left: 40px;
+	background-color: white;
+}
+#new4 img{
+	width: 5cm;
+	height: 3cm;
+}

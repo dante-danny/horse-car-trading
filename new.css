@@ -1,0 +1,139 @@
+#announcment4{
+	position: fixed;
+	margin-left: -75%;
+	margin-top: 3cm;
+	
+	width: 7cm;
+}
+#announcment5{
+	position: fixed;
+	margin-left: 78%;
+	margin-top: -13cm;
+	width: 7cm;
+}
+#announcment5 img{
+	height: 10cm;
+	width: 6cm;
+}
+#announcment4 a{
+		text-align: left;
+	text-decoration: none;
+	color: wheat;
+	text-transform: lowercase;
+}
+
+#new{
+	position: fixed;
+	display: flex;
+	padding: 25px;
+	margin-left: 23%;
+	margin-top: -13cm;
+}
+#new a{
+	color: white;
+	text-decoration: none;
+	transition: .3s;
+}
+#new button{
+	background-color: black;
+	width: 1.5cm;
+	border-radius: 20px;
+}
+.b{
+	margin-left: 30px;
+}
+.c{
+	margin-left: 30px;
+}
+#new img{
+	width: 5cm;
+	height: 3cm;
+}
+#new2{
+	margin-top: -9cm;
+	position: fixed;
+	display: flex;
+	margin-left: 23%;
+	padding: 25px;
+}
+#new2 a{
+	color: white;
+	text-decoration: none;
+	transition: .3s;
+}
+#new2 button{
+	background-color: black;
+	width: 1.5cm;
+	border-radius: 20px;
+}
+.e{
+	margin-left: 30px;
+}
+.f{
+	margin-left: 30px;
+}
+#new2 img{
+	width: 5cm;
+	height: 3cm;
+}
+#new3{
+	margin-top: -5cm;
+	position: fixed;
+	display: flex;
+	padding: 25px;
+	margin-left: 23%;
+}
+#new3 a{
+	color: white;
+	text-decoration: none;
+	transition: .3s;
+}
+#new3 button{
+	background-color: black;
+	width: 1.5cm;
+	border-radius: 20px;
+}
+.h{
+	margin-left: 30px;
+}
+.i{
+	margin-left: 30px;
+}
+#new3 img{
+	width: 5cm;
+	height: 3cm;
+}
+#buttom1{
+	background: url("ny.jpg");
+	height:30%;
+	width:100%;
+	margin-top:70%;
+	border: 2px solid black;
+	border-radius: 4px;
+	padding: 10px;	
+	position: absolute;
+}
+.im1{
+margin-left: 40%;
+margin-top: -4%;
+}
+h5{
+	color: white;
+	text-decoration: underline;
+}
+.buttom1 p,span{
+	color: white;
+} 
+.im1 img{
+	height: 15%;
+	width: 6%;
+	padding: 1%;
+	border-radius: 10cm;
+}
+.copy1{
+margin-left: 80%;
+margin-top: -12%;
+}
+.copy1 p{
+	color: white;
+}

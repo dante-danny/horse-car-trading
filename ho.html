@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Horsee Car Ttrading</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/jpeg" href="d.jpeg">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+	<div class="warapper">
+	<nav class="nav">
+		<div class="nav-logo">
+			<p><img src="d.jpeg"></p>
+		</div>
+		<div class="nav-menu">
+			<ul><li><a href="index.html" class="link Active">HOME</a></li>
+			    <li><a href="newr.html" class="link">New Car</a></li>
+		        <li><a href="hy.html" class="link">Hybrid Cars</a></li>
+        	    <li><a href="ab.html" class="link">Contact Us</a></li>
+</ul>
+		</div>
+		<div class="nav-button">
+			<button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+			<button class="btn" id="registerBtn" onclick="register()">Sign Up</button>
+		</div>
+		<div class="nav-menu-btn">
+			<i class="bx bx-menu" onclick="myMenuFunction()"></i>
+		</div>
+		</nav>
+		<div class="form-box">
+
+
+		<div class="login-container" id="login">
+				<div class="top">
+					<span>Don't have an account? <a href="#" onclick="register()">Sign Up</a></span>
+					<header>Login</header>
+				</div>
+				
+				<div class="input-box">
+						<input type="text" class="input-field" name="" placeholder="Username or Email">
+						<i class="bx bx-user"></i>
+					</div>
+					<div class="input-box">
+						<input type="password" class="input-field" name="" placeholder="Password">
+						<i class="bx bx-lock-alt"></i>
+					</div>
+					<div class="input-box">
+						<input type="submit" class="submit" name="" value="Sign In">
+					</div>
+					<div class="two-col">
+						<div class="one"> 
+							<input type="chekbox" id="login-check" name="" style="width: 0.3cm;height: 0.3cm;margin-top: 0.1cm;">
+							<label for="login-check">Remeber me</label>
+						</div>
+						<div class="two">
+							<label><a href="#">|Forgot password</a></label>
+						</div>
+					</div>
+			</div>
+
+
+			<div class="register-container" id="register">
+				<div class="top">
+					<span>Have an account? <a href="#" onclick="login()">Login</a></span>
+					<header>Sign Up</header>
+				</div>
+				<div class="two-forms">
+					<div class="input-box">
+						<input type="text" class="input-field" name="" placeholder="FristName">
+						<i class="bx bx-user"></i>
+					</div>
+					<div class="input-box">
+						<input type="text" class="input-field" name="" placeholder="LastName">
+						<i class="bx bx-user"></i>
+					</div>
+				</div>
+				<div class="input-box">
+						<input type="email" class="input-field" name="" placeholder="Email">
+						<i class="bx bx-envelope"></i>
+					</div>
+					<div class="input-box">
+						<input type="password" class="input-field" name="" placeholder="Password">
+						<i class="bx bx-lock-alt"></i>
+					</div>
+					<div class="input-box">
+						<input type="submit" class="submit" name="" value="Register">
+					</div>
+					<div class="two-col">
+						<div class="one">
+							<input type="chekbox" id="register-check" name="" style="width: 0.3cm;height: 0.3cm;margin-top: 0.1cm;">
+							<label for="register-check">Remeber me</label>
+						</div>
+						<div class="two">
+							<label><a href="#">Terms & Conditions</a></label>
+						</div>
+					</div>
+			</div>
+		</div>
+	
+	</div>
+
+	<script type="text/javascript">
+		var a = document.getElementById('loginBtn');
+		var b = document.getElementById('registerBtn');
+		var x = document.getElementById('login');
+		var y = document.getElementById('register');
+
+		function login(){
+			x.style.left="4px";
+			y.style.right="-520px";
+			a.className +=" white-btn";
+			b.className="btn";
+			x.style.opacity=1;
+			y.style.opacity=0;
+		}
+		function register(){
+			x.style.left="-510px";
+			y.style.right="5px";
+			a.className="btn";
+			b.className +=" white-btn";
+			x.style.opacity=0;
+			y.style.opacity=1;
+		}
+	</script>
+</body>
+</html>
